@@ -1,3 +1,15 @@
+
+Overwrite the default keyboard layout (tho edit)
+================================
+
+```
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Keyboard Layout]
+"IgnoreRemoteKeyboardLayout"=dword:00000001
+```
+save this as a `.REG` file and merge it.
+
 Mac Keyboard Layouts for Windows
 ================================
 
